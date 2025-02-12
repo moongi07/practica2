@@ -1,0 +1,14 @@
+.cron
+{
+    padding: 10px;
+}
+.cron2
+{
+    background-color: black;
+    color: white;
+    max-width: 3em;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 30px;
+}

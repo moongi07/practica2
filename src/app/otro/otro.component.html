@@ -1,0 +1,27 @@
+<div class="container mt-4">
+    <div class="card shadow-lg p-4">
+      <h2 class="text-center mb-3">📌 Lista de Actividades</h2>
+  
+      <!-- Input y botón de agregar -->
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Escribe una actividad..." [formControl]="actividad">
+        <button class="btn btn-success" (click)="agregar()">Agregar</button>
+      </div>
+  
+      <!-- Lista de actividades -->
+      <ol class="list-group list-group-numbered">
+        @for (acti of lista; track $index) {
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          {{ acti }}
+          <a (click)="borrar($index)" href="#" class="btn btn-danger btn-sm">❌ Borrar</a>
+        </li>
+        }
+      </ol>
+  
+      <!-- Botón de borrar todas -->
+      <div class="text-center mt-3">
+        <button class="btn btn-warning" (click)="borrarTodas()">🗑️ Borrar todas</button>
+      </div>
+    </div>
+  </div>
+  

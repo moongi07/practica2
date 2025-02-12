@@ -1,0 +1,11 @@
+<div
+ class="progress-container"
+ role="progressbar"
+ [attr.aria-valuenow]="value"
+ [attr.aria-valuemin]="0"
+ [attr.aria-valuemax]="max"
+ [attr.aria-label]="'Progreso: ' + value + '%'">
+ <div class="progress-bar" [style.width.%]="(value / max) * 100">
+ </div>
+</div>
+
