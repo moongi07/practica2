@@ -1,0 +1,14 @@
+input, select
+{
+    max-width: 10em;
+    margin: auto;
+}
+select, input[type="checkbox"]
+{
+    cursor: pointer;
+}
+#largo
+{
+    margin-left: 100px;
+}
+/*no consigo centrar el boton y el checkbox al mismo tiempo*/

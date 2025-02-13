@@ -7,11 +7,12 @@ import { OtroComponent } from "./otro/otro.component";
 import { DadosComponent } from "./dados/dados.component";
 import { CronometroComponent } from "./cronometro/cronometro.component";
 import { SumaComponent } from "./suma/suma.component";
+import { FormularioComponent } from "./formulario/formulario.component";
 
 @Component({
   selector: 'app-root',
   standalone: true, 
-  imports: [RouterOutlet, ProgressBarComponent, TablaComponent, ReactiveFormsModule, OtroComponent, DadosComponent, CronometroComponent, SumaComponent],
+  imports: [RouterOutlet, ProgressBarComponent, TablaComponent, ReactiveFormsModule, OtroComponent, DadosComponent, CronometroComponent, SumaComponent, FormularioComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
