@@ -1,59 +1,40 @@
-# Prueba2
+# Ejercicio con Angular, Angular Material y Bootstrap
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
+Este proyecto es un pequeño ejercicio práctico desarrollado con **Angular**, **Angular Material** y **Bootstrap** para explorar la integración de diferentes bibliotecas de UI y mejorar el diseño responsivo.
 
-## Development server
+## 🚀 Demo
+Puedes ver el proyecto en funcionamiento aquí: [🔗 Practica Angular](https://practicaangularangel.netlify.app/)
 
-To start a local development server, run:
+## 🛠️ Tecnologías utilizadas
+- **Angular** - Framework para el desarrollo de aplicaciones web.
+- **Angular Material** - Componentes de Material Design para Angular.
+- **Bootstrap** - Biblioteca CSS para diseño responsivo y estilización.
+- **TypeScript** - Lenguaje de programación basado en JavaScript.
+- **Netlify** - Plataforma utilizada para el despliegue.
 
-```bash
-ng serve
-```
+## 📌 Funcionalidades
+✅ Uso combinado de Angular Material y Bootstrap para mejorar la UI.
+✅ Diseño responsivo y adaptable a distintos dispositivos.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 📦 Instalación y ejecución
+Si deseas ejecutar el proyecto localmente, sigue estos pasos:
 
-## Code scaffolding
+1. Clona el repositorio:
+   ```sh
+   git clone https://github.com/tu-usuario/tu-repositorio.git
+   ```
+2. Entra en la carpeta del proyecto:
+   ```sh
+   cd nombre-del-proyecto
+   ```
+3. Instala las dependencias:
+   ```sh
+   npm install
+   ```
+4. Ejecuta el servidor de desarrollo:
+   ```sh
+   ng serve
+   ```
+5. Abre en tu navegador: `http://localhost:4200/`
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
